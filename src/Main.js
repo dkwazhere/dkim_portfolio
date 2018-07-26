@@ -5,6 +5,7 @@ import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 import Resume from './Components/Resume';
 import { Route, NavLink, HashRouter} from 'react-router-dom';
+import './index.css';
 
 
 
@@ -13,7 +14,7 @@ class Main extends Component {
     return(
       <HashRouter>
         <div>
-          <h1>Simple SPA</h1>
+          <h1>David Kim</h1>
           <ul className="header">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/aboutme">About Me</NavLink></li>
@@ -23,7 +24,7 @@ class Main extends Component {
           </ul>
 
           <div className="content">
-            <Route path="/" component={Home}/>
+            <Route exact path="/" component={Home}/>
             <Route path="/aboutme" component={AboutMe}/>
             <Route path="/resume" component={Resume}/>
             <Route path="/portfolio" component={Portfolio}/>
