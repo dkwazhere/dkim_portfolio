@@ -1,9 +1,7 @@
 #home-pic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  height: 70%;
+  position: absolute;
+  width: 90%;
+  height: 85%;
   -webkit-filter: blur(1px);
 }
 

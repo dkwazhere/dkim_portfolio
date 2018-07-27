@@ -5,7 +5,6 @@ body {
 }
 
 h1, h2, p, ul, li {
-  text-align: center;
   font-family: sans-serif;
 }
 
@@ -28,17 +27,21 @@ ul.header li a {
   color: #E7DFDD;
   font-weight: bold;
   text-decoration: none;
-  padding: 20px;
+  padding: 25px;
   display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+/*
+header width 200 is controlling the active length;
+*/
+.header {
+  width: 200px;
 }
 
 .content {
-  margin: auto;
-  background-color: #0E0B16;
-  padding: 20px;
-  height: 70%;
-  width: 80%;
-  padding: 10px;
+  padding: 1px;
 }
 
 .content h2 {

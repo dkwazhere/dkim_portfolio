@@ -9,12 +9,9 @@ class Home extends Component {
   render() {
     return (
       <Container className='home-container'>
-      <Row>
-        <Col>
         <div className="home-pic">
           <img id="home-pic" src={codepic}></img>
         </div>
-        </Col>
         <div className="home-intro">
           <a id="intro-intro">
             Hi, I am <br/>
@@ -23,7 +20,6 @@ class Home extends Component {
             David Kim
           </a>
         </div>
-        </Row>
       </Container>
     );
   }
