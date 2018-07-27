@@ -24,6 +24,7 @@ ul.header {
 }
 
 ul.header li a {
+  font-family: 'Muli', sans-serif;
   color: #E7DFDD;
   font-weight: bold;
   text-decoration: none;
@@ -47,6 +48,7 @@ header width 200 is controlling the active length;
 }
 
 .content {
+  padding-top: 5%;
   padding-left: 10%;
   padding-right: 10%;
 }
