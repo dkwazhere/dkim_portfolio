@@ -1,11 +1,16 @@
 body {
-  background-color: #2C4551;
+  background-color: #0E0B16;
   padding: 20px;
   margin: 0;
 }
 
 h1, h2, p, ul, li {
+  text-align: center;
   font-family: sans-serif;
+}
+
+#main-name {
+  color: #E7DFDD;
 }
 
 ul.header li {
@@ -15,7 +20,7 @@ ul.header li {
 }
 
 ul.header {
-  background-color: #111;
+  background-color: #0E0B16;
   padding: 0;
 }
 
@@ -29,7 +34,7 @@ ul.header li a {
 
 .content {
   margin: auto;
-  background-color: #FFF;
+  background-color: #0E0B16;
   padding: 20px;
   height: 70%;
   width: 80%;
@@ -46,5 +51,5 @@ ul.header li a {
 }
 
 .active {
-  background-color: #0099FF;
+  background-color: #4717F6;
 }
