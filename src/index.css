@@ -43,6 +43,7 @@ header width 200 is controlling the active length;
 */
 .header {
   width: 200px;
+  position: fixed;
 }
 
 .content {

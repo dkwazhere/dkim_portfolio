@@ -17,9 +17,9 @@ class Main extends Component {
       <Row>
         <HashRouter>
             <div className="main">
-              <h1 id="main-name">David Kim</h1>
               <Col xs="1">
                 <ul className="header">
+                <h1 id="main-name">David Kim</h1>
                   <li><NavLink exact to="/">Home</NavLink></li>
                   <li><NavLink to="/aboutme">About Me</NavLink></li>
                   <li><NavLink to="/resume">Resume</NavLink></li>

@@ -1,7 +1,21 @@
 import React, { Component } from 'react';
 import './AboutMe.css';
 import { Row, Col, Container } from "reactstrap";
+import skillsbanner from '../../assets/images/skills.jpg'
 import aboutmelogo from '../../assets/images/aboutlogo.png';
+import bootstrap from '../../assets/images/skills/bootstrap.png';
+import css3 from '../../assets/images/skills/css3.png';
+import firebase from '../../assets/images/skills/firebase.png';
+import github from '../../assets/images/skills/github.png';
+import heroku from '../../assets/images/skills/heroku.png';
+import html5 from '../../assets/images/skills/html5.png';
+import javascript from '../../assets/images/skills/javascript.png';
+import jquery from '../../assets/images/skills/jquery.gif';
+import mongodb from '../../assets/images/skills/mongodb.png';
+import mysql from '../../assets/images/skills/mysql.png';
+import node from '../../assets/images/skills/node.png';
+import react from '../../assets/images/skills/react.png';
+
 class AboutMe extends Component {
   render() {
     return(
@@ -12,16 +26,38 @@ class AboutMe extends Component {
         <Row>
           <h2>About me</h2>
         </Row>
-        <p>
-          Pras facilisis urna ornare ex volutpat, et
-          convallis erat elementum. Ut aliquam, ipsum vitae
-          gravida suscipit, metus dui bibendum est, eget rhoncus nibh
-          metus nec massa. Maecenas hendrerit laoreet augue
-          nec molestie. Cum sociis natoque penatibus et magnis
-          dis parturient montes, nascetur ridiculus mus.
-        </p>
+        <Row>
+          <p>
+            I am a recent graduate of the UCLA coding bootcamp. <br/>
+            One big reason i switched professions is my love for computers <br/>
+            Another reason is problem solving.
+          </p>
+        </Row>
+        <Row>
+          <img src={skillsbanner}></img>
+        </Row>
+        <Row>
+          <Col>
+            <img className="skill-logo" src={html5}></img>
+            <img className="skill-logo" src={css3}></img>
+            <img className="skill-logo" src={javascript}></img>
+            <img className="skill-logo" src={jquery}></img>
+          </Col>
+          <Col>
+            <img className="skill-logo" src={react}></img>
+            <img className="skill-logo" src={node}></img>
+            <img className="skill-logo" src={mongodb}></img>
+            <img className="skill-logo" src={mysql}></img>
+          </Col>
+          <Col>
+            <img className="skill-logo" src={github}></img>
+            <img className="skill-logo" src={firebase}></img>
+            <img className="skill-logo" src={heroku}></img>
+            <img className="skill-logo" src={bootstrap}></img>
+          </Col>
+        </Row>
 
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+
       </Container>
     );
   }
