@@ -1,14 +1,44 @@
 import React, { Component } from "react";
+import './Contact.css';
+import { Row, Col, Container } from "reactstrap";
+import phonelogo from '../../assets/images/phone.png';
+import reachbanner from '../../assets/images/reachbanner.png';
+import locationlogo from '../../assets/images/location.png';
+import celllogo from '../../assets/images/cell.png';
+import emaillogo from '../../assets/images/email.png';
+import checklogo from '../../assets/images/check.png';
 
 class Contact extends Component {
   render() {
     return (
-      <div className="animated slideInUp">
-        <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
-        </p>
-      </div>
+      <Container className="contact-container animated slideInUp">
+        <Row>
+          <img id="phonelogo" src={phonelogo}></img>
+        </Row>
+        <Row>
+          <h2 id="contact-header">Contact</h2>
+        </Row>
+        <Row>
+          <img id="reachbanner" src={reachbanner}></img>
+        </Row>
+        <Row>
+          <Col>
+            <img className="reachme-logos" src={locationlogo}></img>
+            <img className="reachme-logos" src={celllogo}></img>
+            <img className="reachme-logos" src={emaillogo}></img>
+            <img className="reachme-logos" src={checklogo}></img>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <a className="reachme-info">Based in Los Angeles, USA</a>
+            <a className="reachme-info">Tel: +310 933 2115</a>
+            <a className="reachme-info">Dkim637@outlook.com</a>
+            <a className="reachme-info">Freelance available</a>
+          </Col>
+        </Row>
+
+      </Container>
     );
   }
 }
