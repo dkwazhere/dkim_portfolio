@@ -41,7 +41,8 @@ header width 200 is controlling the active length;
 }
 
 .content {
-  padding: 1px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .content h2 {

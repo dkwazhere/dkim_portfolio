@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import './AboutMe.css';
+import { Row, Col, Container } from "reactstrap";
 
 class AboutMe extends Component {
   render() {
     return(
-      <div>
-        <h2>Hello</h2>
+      <Container className="aboutme-container">
+        <Row>
+        <h2>About me</h2>
+        </Row>
         <p>
           Pras facilisis urna ornare ex volutpat, et
           convallis erat elementum. Ut aliquam, ipsum vitae
@@ -15,7 +19,7 @@ class AboutMe extends Component {
         </p>
 
         <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
-      </div>
+      </Container>
     );
   }
 }
