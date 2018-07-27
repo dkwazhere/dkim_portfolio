@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './AboutMe.css';
 import { Row, Col, Container } from "reactstrap";
-
+import aboutmelogo from '../../assets/images/aboutlogo.png';
 class AboutMe extends Component {
   render() {
     return(
       <Container className="aboutme-container">
         <Row>
-        <h2>About me</h2>
+          <img id="aboutmelogo" src={aboutmelogo}></img>
+        </Row>
+        <Row>
+          <h2>About me</h2>
         </Row>
         <p>
           Pras facilisis urna ornare ex volutpat, et

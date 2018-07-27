@@ -27,10 +27,15 @@ ul.header li a {
   color: #E7DFDD;
   font-weight: bold;
   text-decoration: none;
-  padding: 25px;
-  display: inline-block;
-  width: 50%;
+  padding: 35px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  width: 80px;
   float: left;
+  text-align: center;
+  overflow: auto;
+  border-bottom: .5px solid #bbb;
 }
 
 /*
