@@ -5,7 +5,7 @@ import aboutmelogo from '../../assets/images/aboutlogo.png';
 class AboutMe extends Component {
   render() {
     return(
-      <Container className="aboutme-container">
+      <Container className="aboutme-container animated slideInUp">
         <Row>
           <img id="aboutmelogo" src={aboutmelogo}></img>
         </Row>
