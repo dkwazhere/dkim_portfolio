@@ -1,15 +1,19 @@
 import React, { Component } from "react";
 import './Resume.css';
+import { Row, Col, Container } from "reactstrap";
+import resumelogo from '../../assets/images/resumelogo.png';
 
 class Resume extends Component {
   render() {
     return (
-      <div className="resume-container animated slideInUp">
-        <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
-        </p>
-      </div>
+      <Container className="resume-container animated slideInUp">
+        <Row>
+          <img id="resume-logo" src={resumelogo}></img>
+        </Row>
+        <Row>
+          <h2 id="resume-header">resume</h2>
+        </Row>
+      </Container>
     );
   }
 }

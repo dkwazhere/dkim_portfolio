@@ -1,20 +1,19 @@
 import React, { Component } from "react";
+import './Portfolio.css';
+import { Row, Col, Container } from "reactstrap";
+import glasseslogo from '../../assets/images/glasses.png';
 
 class Portfolio extends Component {
   render() {
     return (
-      <div className="animated slideInUp"> 
-        <h2>STUFF</h2>
-        <p>Mauris sem velit, vehicula eget sodales vitae,
-        rhoncus eget sapien:</p>
-        <ol>
-          <li>Nulla pulvinar diam</li>
-          <li>Facilisis bibendum</li>
-          <li>Vestibulum vulputate</li>
-          <li>Eget erat</li>
-          <li>Id porttitor</li>
-        </ol>
-      </div>
+      <Container className="portfolio-container animated slideInUp">
+        <Row>
+          <img id="glasses-logo" src={glasseslogo}></img>
+        </Row>
+        <Row>
+          <h2 id="portfolio-header">portfolio</h2>
+        </Row>
+      </Container>
     );
   }
 }

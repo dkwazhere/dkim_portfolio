@@ -24,7 +24,7 @@ class AboutMe extends Component {
           <img id="aboutmelogo" src={aboutmelogo}></img>
         </Row>
         <Row>
-          <h2>About me</h2>
+          <h2 id="about-header">About me</h2>
         </Row>
         <Row>
           <p>
