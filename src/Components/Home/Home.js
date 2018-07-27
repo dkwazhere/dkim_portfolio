@@ -1,20 +1,28 @@
 import React, { Component } from "react";
+import { Row, Col, Container } from "reactstrap";
+import homepic from "../../assets/images/home-background.jpg";
+import './Home.css';
 
 class Home extends Component {
   render() {
     return (
-      <div>
-        <h2>STUFF</h2>
-        <p>Mauris sem velit, vehicula eget sodales vitae,
-        rhoncus eget sapien:</p>
-        <ol>
-          <li>Nulla pulvinar diam</li>
-          <li>Facilisis bibendum</li>
-          <li>Vestibulum vulputate</li>
-          <li>Eget erat</li>
-          <li>Id porttitor</li>
-        </ol>
-      </div>
+      <Container className='home-container'>
+      <Row>
+        <Col>
+        <div className="home-pic">
+          <img id="home-pic" src={homepic}></img>
+        </div>
+        </Col>
+        <div className="home-intro">
+          <a id="intro-intro">
+            Hi, I am <br/>
+          </a>
+          <a id="intro-name">
+            David Kim
+          </a>
+        </div>
+        </Row>
+      </Container>
     );
   }
 }
