@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Container } from "reactstrap";
-import homepic from "../../assets/images/home-background.jpg";
+import { Container } from "reactstrap";
 import codepic from "../../assets/images/code.jpeg";
 
 import './Home.css';
@@ -10,7 +9,7 @@ class Home extends Component {
     return (
       <Container className='home-container'>
         <div className="home-pic">
-          <img id="home-pic" src={codepic}></img>
+          <img id="home-pic" alt="" src={codepic}></img>
         </div>
         <div className="home-intro">
           <a id="intro-intro">

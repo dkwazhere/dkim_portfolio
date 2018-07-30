@@ -21,7 +21,7 @@ class AboutMe extends Component {
     return(
       <Container className="aboutme-container animated slideInUp">
         <Row>
-          <img id="aboutmelogo" src={aboutmelogo}></img>
+          <img id="aboutmelogo" alt="" src={aboutmelogo}></img>
         </Row>
         <Row>
           <h2 id="about-header">About me</h2>
@@ -34,26 +34,26 @@ class AboutMe extends Component {
           </p>
         </Row>
         <Row>
-          <img src={skillsbanner}></img>
+          <img src={skillsbanner} alt=""></img>
         </Row>
         <Row>
           <Col>
-            <img className="skill-logo" src={html5}></img>
-            <img className="skill-logo" src={css3}></img>
-            <img className="skill-logo" src={javascript}></img>
-            <img className="skill-logo" src={jquery}></img>
+            <img className="skill-logo" alt="" src={html5}></img>
+            <img className="skill-logo" alt="" src={css3}></img>
+            <img className="skill-logo" alt="" src={javascript}></img>
+            <img className="skill-logo" alt="" src={jquery}></img>
           </Col>
           <Col>
-            <img className="skill-logo" src={react}></img>
-            <img className="skill-logo" src={node}></img>
-            <img className="skill-logo" src={mongodb}></img>
-            <img className="skill-logo" src={mysql}></img>
+            <img className="skill-logo" alt="" src={react}></img>
+            <img className="skill-logo" alt="" src={node}></img>
+            <img className="skill-logo" alt="" src={mongodb}></img>
+            <img className="skill-logo" alt="" src={mysql}></img>
           </Col>
           <Col>
-            <img className="skill-logo" src={github}></img>
-            <img className="skill-logo" src={firebase}></img>
-            <img className="skill-logo" src={heroku}></img>
-            <img className="skill-logo" src={bootstrap}></img>
+            <img className="skill-logo" alt="" src={github}></img>
+            <img className="skill-logo" alt="" src={firebase}></img>
+            <img className="skill-logo" alt="" src={heroku}></img>
+            <img className="skill-logo" alt="" src={bootstrap}></img>
           </Col>
         </Row>
 

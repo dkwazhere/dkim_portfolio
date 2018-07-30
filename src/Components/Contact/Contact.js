@@ -13,20 +13,20 @@ class Contact extends Component {
     return (
       <Container className="contact-container animated slideInUp">
         <Row>
-          <img id="phonelogo" src={phonelogo}></img>
+          <img id="phonelogo" alt="" src={phonelogo}></img>
         </Row>
         <Row>
           <h2 id="contact-header">Contact</h2>
         </Row>
         <Row>
-          <img id="reachbanner" src={reachbanner}></img>
+          <img id="reachbanner" alt="" src={reachbanner}></img>
         </Row>
         <Row>
           <Col>
-            <img className="reachme-logos" src={locationlogo}></img>
-            <img className="reachme-logos" src={celllogo}></img>
-            <img className="reachme-logos" src={emaillogo}></img>
-            <img className="reachme-logos" src={checklogo}></img>
+            <img className="reachme-logos" alt="" src={locationlogo}></img>
+            <img className="reachme-logos" alt="" src={celllogo}></img>
+            <img className="reachme-logos" alt="" src={emaillogo}></img>
+            <img className="reachme-logos" alt="" src={checklogo}></img>
           </Col>
         </Row>
         <Row>
