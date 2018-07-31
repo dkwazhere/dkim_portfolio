@@ -1,6 +1,5 @@
 body {
-  background-color: #0E0B16;
-  padding: 20px;
+  background-color: #e7e7e7;
   margin: 0;
 }
 
@@ -10,6 +9,8 @@ h1, h2, p, ul, li {
 
 #main-name {
   color: #E7DFDD;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 ul.header li {
@@ -19,8 +20,9 @@ ul.header li {
 }
 
 ul.header {
-  background-color: #0E0B16;
-  padding: 0;
+  background-color: #1c262b;
+  /* padding: 0; */
+  height: 100%;
 }
 
 ul.header li a {
@@ -36,21 +38,21 @@ ul.header li a {
   float: left;
   text-align: center;
   overflow: auto;
-  border-bottom: .5px solid #a239ca;
+  border-bottom: .5px solid #2a343a;
 }
 
-/*
-header width 200 is controlling the active length;
-*/
+
 .header {
   width: 200px;
   position: fixed;
+  margin: 0;
 }
 
 .content {
-  padding-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  float: right;
+  background-color: #e7e7e7;
+  height: 90%;
+  width: 90%;
 }
 
 .content h2 {
@@ -63,5 +65,5 @@ header width 200 is controlling the active length;
 }
 
 .active {
-  background-color: #4717F6;
+  background-color: #334454;
 }

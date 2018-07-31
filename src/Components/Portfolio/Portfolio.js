@@ -6,7 +6,7 @@ import glasseslogo from '../../assets/images/glasses.png';
 class Portfolio extends Component {
   render() {
     return (
-      <Container className="portfolio-container animated slideInUp">
+      <Container className="portfolio-container animated slideInDown">
         <Row>
           <img id="glasses-logo" alt="" src={glasseslogo}></img>
         </Row>

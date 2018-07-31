@@ -19,7 +19,7 @@ import react from '../../assets/images/skills/react.png';
 class AboutMe extends Component {
   render() {
     return(
-      <Container className="aboutme-container animated slideInUp">
+      <Container className="aboutme-container animated slideInDown">
         <Row>
           <img id="aboutmelogo" alt="" src={aboutmelogo}></img>
         </Row>

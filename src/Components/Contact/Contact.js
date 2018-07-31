@@ -11,7 +11,7 @@ import checklogo from '../../assets/images/check.png';
 class Contact extends Component {
   render() {
     return (
-      <Container className="contact-container animated slideInUp">
+      <Container className="contact-container animated slideInDown">
         <Row>
           <img id="phonelogo" alt="" src={phonelogo}></img>
         </Row>

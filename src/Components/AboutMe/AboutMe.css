@@ -1,7 +1,11 @@
 .aboutme-container {
-  color: WHITE;
+  color: #334454;
   text-align: center;
   padding-top: 2%;
+}
+
+.aboutme-container p {
+  color: #848b8e;
 }
 
 #aboutmelogo {

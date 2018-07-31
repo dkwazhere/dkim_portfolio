@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <Container className='home-container'>
         <div className="home-pic">
-          <img id="home-pic" alt="" src={codepic}></img>
+          
         </div>
         <div className="home-intro">
           <a id="intro-intro">

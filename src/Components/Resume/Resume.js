@@ -9,7 +9,7 @@ import './Resume.css';
 class Resume extends Component {
   render() {
     return (
-      <Container className="resume-container animated slideInUp">
+      <Container className="resume-container animated slideInDown">
         <Row>
           <img id="resume-logo" alt="" src={resumelogo}></img>
         </Row>
