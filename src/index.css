@@ -8,9 +8,13 @@ h1, h2, p, ul, li {
 }
 
 #main-name {
+  text-align: center;
+  background-color: #28a067;
   color: #E7DFDD;
-  padding-top: 15%;
-  padding-bottom: 15%;
+}
+
+#my-pic {
+  padding-top: 2%;
 }
 
 ul.header li {
@@ -23,6 +27,7 @@ ul.header {
   background-color: #1c262b;
   /* padding: 0; */
   height: 100%;
+  padding-right: 2%;
 }
 
 ul.header li a {
@@ -30,11 +35,11 @@ ul.header li a {
   color: #E7DFDD;
   font-weight: bold;
   text-decoration: none;
-  padding: 35px;
+  padding: 25px;
   padding-top: 50px;
   padding-bottom: 50px;
   display: block;
-  width: 80px;
+  width: 140px;
   float: left;
   text-align: center;
   overflow: auto;

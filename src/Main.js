@@ -7,18 +7,18 @@ import Resume from './Components/Resume';
 import { Route, NavLink, HashRouter} from 'react-router-dom';
 import './index.css';
 import { Row, Col, Container } from "reactstrap";
+import mypic from './assets/images/mypic.png';
 
 
 
 class Main extends Component {
   render() {
     return(
-      <Container>
-      <Row>
         <HashRouter>
-            <div className="main">
+            <Container className="main">
               <Col xs="1">
                 <ul className="header">
+                <img src={mypic} alt="" id="my-pic"></img>
                 <h1 id="main-name">David Kim</h1>
                   <li><NavLink exact to="/">Home</NavLink></li>
                   <li><NavLink to="/aboutme">About Me</NavLink></li>
@@ -36,10 +36,8 @@ class Main extends Component {
                   <Route path="/contact" component={Contact}/>
                 </div>
                 </Col>
-            </div>
+            </Container>
           </HashRouter>
-        </Row>
-      </Container>
     )
   }
 }
