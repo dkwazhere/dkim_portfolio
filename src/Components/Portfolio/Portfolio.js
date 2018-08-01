@@ -3,7 +3,7 @@ import './Portfolio.css';
 import { Col, Row, Container, Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
 import glasseslogo from '../../assets/images/glasses.png';
-import ikdesignlogo from '../../assets/images/ikdesign.png';
+import ikdesignlogo from '../../assets/images/ikdesignlogo.png';
 import jepbyjeplogo from '../../assets/images/jepbyjep.png';
 import staytunedlogo from '../../assets/images/staytuned.jpg';
 
