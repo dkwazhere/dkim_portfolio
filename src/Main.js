@@ -6,7 +6,7 @@ import Portfolio from './Components/Portfolio';
 import Resume from './Components/Resume';
 import { Route, NavLink, HashRouter} from 'react-router-dom';
 import './index.css';
-import { Row, Col, Container } from "reactstrap";
+import {  Col, Container } from "reactstrap";
 import mypic from './assets/images/mypic.png';
 
 

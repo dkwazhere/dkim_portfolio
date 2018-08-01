@@ -85,28 +85,28 @@ class Resume extends Component {
             <Col xs="1">
               <h3>El Camino College</h3>
               <a className="school-name">Torrance, California</a>
-              <a></a>
+              <a>2018-Present</a>
             </Col>
           </div>
           <div className="col2-divs">
             <Col xs="1">
               <h3>UCLA Extension Coding Bootcamp</h3>
               <a className="school-name">Westwood, California</a>
-              <a></a>
+              <a>2017-2018</a>
             </Col>
           </div>
           <div className="col2-divs">
             <Col xs="1">
               <h3>Crimson Technical College</h3>
               <a className="school-name">Inglewood, California</a>
-              <a></a>
+              <a>2011-2013</a>
             </Col>
           </div>
           <div className="col2-divs">
             <Col xs="1">
               <h3>South High School</h3>
               <a className="school-name">Torrance, California</a>
-              <a></a>
+              <a>2006-2010</a>
             </Col>
           </div>
           </Col>
