@@ -6,6 +6,7 @@ import glasseslogo from '../../assets/images/glasses.png';
 import ikdesignlogo from '../../assets/images/ikdesignlogo.png';
 import jepbyjeplogo from '../../assets/images/jepbyjep.png';
 import staytunedlogo from '../../assets/images/staytuned.jpg';
+import fortnitelogo from '../../assets/images/fortnitetrackerapp.png';
 import teletubbycollector from '../../assets/images/teletubbyCollector.png';
 
 
@@ -35,6 +36,19 @@ class Portfolio extends Component {
           <Col>
             <div className="project-cards">
               <Card className="card2">
+                <CardImg top width="15%" src={fortnitelogo} alt="Card image cap" />
+                <CardBody>
+                  <CardTitle>Fortnite Tracker</CardTitle>
+                  <CardSubtitle>Full stack development</CardSubtitle>
+                  <CardText>An application built using HTML, CSS, and Javascript.<br/> Fortnite tracker was built using Fortnite's api.</CardText>
+                  <Button href="https://github.com/dkwazhere/Fortnite-Tracker">Github</Button>  |  <Button href="">Live</Button>
+                </CardBody>
+              </Card>
+            </div>
+          </Col>
+          <Col>
+            <div className="project-cards">
+              <Card className="card3">
                 <CardImg top width="15%" src={ikdesignlogo} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>IK Design</CardTitle>
@@ -47,7 +61,7 @@ class Portfolio extends Component {
           </Col>
           <Col>
             <div className="project-cards">
-              <Card className="card3">
+              <Card className="card4">
                 <CardImg top width="15%" src={jepbyjeplogo} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>JepByJep</CardTitle>
@@ -60,7 +74,7 @@ class Portfolio extends Component {
           </Col>
           <Col>
             <div className="project-cards">
-              <Card className="card4">
+              <Card className="card5">
                 <CardImg top width="15%" src={teletubbycollector} alt="Card image cap" />
                 <CardBody>
                   <CardTitle>TeleTubby Collector</CardTitle>
